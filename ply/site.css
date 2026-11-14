@@ -1,0 +1,17 @@
+:root { --paper:#f3ecdd; --sheet:#fbf7ec; --ink:#1b2a41; --soft:#5e6779; --rule:#d2c8af; --pen:#b3361f; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper) repeating-linear-gradient(to bottom, transparent 0, transparent 33px, rgba(210,200,175,.45) 33px, rgba(210,200,175,.45) 34px); color:var(--ink); font:18px/1.6 "New York", Georgia, "Times New Roman", serif; }
+main { max-width:680px; margin:0 auto; padding:34px 22px 70px; }
+.brand { display:inline-flex; align-items:center; gap:12px; color:var(--ink); text-decoration:none; font-weight:700; font-size:22px; letter-spacing:.02em; }
+.brand img { width:42px; height:42px; border-radius:10px; }
+h1 { font-size:40px; line-height:1.15; margin:34px 0 8px; }
+h2 { font-size:22px; margin:34px 0 6px; padding-bottom:4px; border-bottom:2px solid var(--ink); }
+p, li { margin:.6em 0; }
+.lede { color:var(--soft); }
+.box { background:var(--sheet); border:1px solid var(--rule); border-left:4px solid var(--pen); padding:4px 18px; margin:22px 0; }
+a { color:var(--pen); }
+table { width:100%; border-collapse:collapse; background:var(--sheet); border:1px solid var(--rule); }
+th, td { text-align:left; padding:9px 12px; border-bottom:1px solid var(--rule); vertical-align:top; font-size:16px; }
+th { width:30%; color:var(--soft); font-weight:600; }
+footer { margin-top:50px; padding-top:16px; border-top:1px solid var(--rule); font-size:15px; display:flex; gap:20px; flex-wrap:wrap; }
+.stamp { display:inline-block; border:2px solid var(--pen); color:var(--pen); padding:2px 10px; border-radius:4px; transform:rotate(-3deg); font:700 16px ui-monospace, Menlo, monospace; }
