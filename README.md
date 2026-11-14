@@ -2,7 +2,7 @@
 
 Public web of **Plyscribe** (scoresheet photo to PGN, iPhone and iPad). To be served at
 <https://plyscribe.baltajmn.dev/> by GitHub Pages from `main` behind Cloudflare (CNAME `plyscribe` to
-`baltajmn.github.io`, proxied). Not published: no repository, no DNS yet.
+`baltajmn.github.io`, proxied). Published.
 
 | Path | What it is |
 |---|---|
